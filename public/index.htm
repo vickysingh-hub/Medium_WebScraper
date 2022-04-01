@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+    <div class="centered-form">
+        <div class="centered-form__box">
+            <h1>Search</h1>
+            <form id="search-form" onsubmit="return false">
+                <label>Tags</label>
+                <input id="tags" type="text" name="tags" id="tags" placeholder="Use',' for multiple tags" required>
+                <button id="find" type="submit">Find</button> 
+            </form>
+        </div>
+    </div>
+
+    <div id="result-box">
+        <div id="result">
+        </div>
+    </div>
+    <div id="result-box">
+        <div id="result">
+            <button id="loadMore" style="display:none;">Load More</button>
+        </div>
+    </div>
+</body>
+
+<script type="application/javascript" src='./js/script.js' ></script>
+
+</html>

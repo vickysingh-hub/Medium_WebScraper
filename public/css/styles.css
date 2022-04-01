@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+input {
+  font-size: 14px;
+}
+
+body {
+  background: #4731c2;
+  line-height: 1.4;
+  color: #333333;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #777;
+}
+
+input {
+  border: 1px solid #eeeeee;
+  padding: 12px;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 12px;
+  background: #7c5cbf;
+  border: none;
+  color: white;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #6b47b8;
+}
+
+button:disabled {
+  cursor: default;
+  background: #35754394;
+}
+
+/* Join Page Styles */
+
+.centered-form {
+  background: #50bd5f;
+  width: 100vw;
+  /* height:100vh;    */
+  padding: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-form__box {
+  box-shadow: 0px 0px 17px 1px #1d1f26;
+  background: #ffffff;
+  padding: 24px;
+  width: 250px;
+  border-radius: 1em;
+}
+
+.centered-form button {
+  width: 100%;
+  border-radius: 2em;
+}
+
+.centered-form input {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+#posts {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#posts td,
+#posts th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#posts tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#posts tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+#posts tr:hover {
+  background-color: #ddd;
+}
+
+#posts th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #422db9;
+  color: white;
+}
+
+#result-box {
+  background: #333744;
+  padding: 0px 40px 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  box-shadow: 0px 0px 17px 1px #1d1f26;
+}
